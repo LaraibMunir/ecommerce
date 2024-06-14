@@ -1,0 +1,74 @@
+.bestsellers-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .bestsellers-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .bestsellers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .bestseller-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .bestseller-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .bestseller-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bestseller-item .details {
+    padding: 20px;
+  }
+  
+  .bestseller-item .details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .bestseller-item .details p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .bestseller-item .details .price {
+    font-size: 1.25rem;
+    color: #e74c3c;
+    margin-top: 10px;
+  }
+  
+  .bestseller-item .details .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bestseller-item .details .btn:hover {
+    background-color: #2980b9;
+  }
